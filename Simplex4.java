@@ -236,36 +236,7 @@ rango2=number1;
     
          sale=Integer.parseInt(salida);
          
-          p1=Combina.Combo(opciones,sale,salida);
-         
-       
-
-
-                    if (p1==true) {
-                       q=q+1;
-                     matriz[q]=sale;
-                   
-               }   
-           }
-           
-           /* Aqui se crea la matriz de cramer para cada combinación*/
-           porque=0;
-               
-            for(j=1;j<combinatoria+1;j++)
-            {
-                sale2=String.valueOf(matriz[j]);
-                s=0;
-                t=0;
-                System.out.println("");
-                
-                
-                for (g1=0;g1<number1;g1++)
-                {
-                    
-                     t=0;
-                     for(g2=number1-1;g2>=0;g2--)
-                    {
-                        saleB=sale2.charAt(g2);
+          
                         B=Character.getNumericValue(saleB);
                  
                 
