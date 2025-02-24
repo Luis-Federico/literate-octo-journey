@@ -763,12 +763,7 @@ menor=0;
 	       
 
 
-	                    if (p1==true) {
-	                       q=q+1;
-	                    matriz[q]=sale;
-	                   
-	               }   
-	           
+	                    
 	           }
 	          /* ESTO ERA LO QUE HAY QUE DEJAR*/
 	 }       
@@ -781,13 +776,7 @@ menor=0;
 	       int contador3=0;
 	int contador4=0;
 	* */
-	            for(i=1;i<Combinaciones+1;i++)
-	            {
-	                sale1=String.valueOf(matriz[i]);
-	               
-	            for(j=1;j<Combinaciones+1;j++)
-	            {
-	                sale2=String.valueOf(matriz[j]);
+	            
 	               
 	               
 
@@ -802,17 +791,7 @@ menor=0;
 s4.add(g1);	
 	}  
 	   
-	 for (g1=0;g1<rango1;g1++)
-	 {
-		 salefila=sale1.charAt(g1);
-		 salefila1=Character.getNumericValue(salefila);
-		 s3.remove(salefila1);
-		  for(g2=0;g2<rango1;g2++)
-	                    {
-							salecolumna=sale2.charAt(g2);
-							
-	salecolumna1=Character.getNumericValue(salecolumna);
-	s4.remove(salecolumna1);
+	 
 	
 }
 }
@@ -862,20 +841,7 @@ s2.clear();
 	}       
 	                for (g1=0;g1<rango1;g1++)
 	                {
-	                     saleA=sale1.charAt(g1);
-	                     A[menor][rango1][g1]=Character.getNumericValue(saleA);
-	                     
-	                   s1.remove(A[menor][rango1][g1]);
-	                    for(g2=0;g2<rango1;g2++)
-	                    {
-	                        saleB=sale2.charAt(g2);
-	                        B[menor][rango1][g2]=Character.getNumericValue(saleB);
-	                 s2.remove(B[menor][rango1][g2]);
-	                /**/
-	                nueva[rango1-g1-1][rango1-g2-1]=mat1[A[menor][rango1][g1]][B[menor][rango1][g2]];
-	               
-	               mat3[A[menor][rango1][g1]][B[menor][rango1][g2]]=1;
-	               
+	                    
 	            }
 	           
 	        }
@@ -1318,14 +1284,7 @@ do{
 	 }       
 	 Hola[rango1]=Combinaciones*Combinaciones;
 	        /*System.out.println ("Hay "+ Hola[rango1]+" menores ");*/   
-	            for(i=1;i<Combinaciones+1;i++)
-	            {
-	                sale1=String.valueOf(matriz[i]);
-	               
-	            for(j=1;j<Combinaciones+1;j++)
-	            {
-	                sale2=String.valueOf(matriz[j]);
-	               
+	          
 	               
 
 	ceromat();
