@@ -429,28 +429,7 @@ menor=0;
 	       /*salida=Integer.toString(h,elementos);*/
 	       
 	       /* ESTO ES LO QUE HAY QUE DEJAR*/
-	       
-	       salida=Integer.toString(h);
-	      
-	         sale=h; 
-	         
-	          p1=Combina.Combo(opciones,sale,salida);
-	         
-	       
-
-
-	                    if (p1==true) {
-	                       q=q+1;
-	                    matriz[q]=sale;
-	                   
-	               }   
-	           
-	           }
-	          /* ESTO ERA LO QUE HAY QUE DEJAR*/
-	 }       
-	 Hola[rango1]=Combinaciones*Combinaciones;
-	        /*System.out.println ("Hay "+ Hola[rango1]+" menores ");*/   
-	            for(i=1;i<Combinaciones+1;i++)
+	     
 	            {
 	                sale1=String.valueOf(matriz[i]);
 	               
