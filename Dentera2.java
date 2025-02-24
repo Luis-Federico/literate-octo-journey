@@ -441,21 +441,7 @@ menor=0;
 	       
 	       salida=Integer.toString(h);
 	      
-	         sale=h; 
-	         
-	          p1=Combina.Combo(opciones,sale,salida);
-	         
-	       
-
-
-	                    if (p1==true) {
-	                       q=q+1;
-	                    matriz[q]=sale;
-	                   
-	               }   
-	           
-	           }
-	          /* ESTO ERA LO QUE HAY QUE DEJAR*/
+	        JAR*/
 	 }       
 	 Hola[rango1]=Combinaciones*Combinaciones;
 	        /*System.out.println ("Hay "+ Hola[rango1]+" menores ");*/   
