@@ -231,33 +231,7 @@ else
       
          sale=h; 
          
-          p1=Combina.Combo(opciones,sale,salida);
          
-       
-
-
-                    if (p1==true) {
-                       q=q+1;
-                    matriz[q]=sale;
-                   
-               }   
-           
-           }
-          /* ESTO ERA LO QUE HAY QUE DEJAR*/
- }       
- Hola=Combinaciones*Combinaciones;
-        System.out.println ("Hay "+ Hola+" menores ");  System.out.println("Esta seguro?,1-si, otro numero-no");                                        teclo=sc.nextInt();                             if(teclo==1)                                    {   
-            for(i=1;i<Combinaciones+1;i++)
-            {
-                sale1=String.valueOf(matriz[i]);
-               
-            for(j=1;j<Combinaciones+1;j++)
-            {
-                sale2=String.valueOf(matriz[j]);
-               
-               
-
-for(int i3=0;i3<number1;i3++)
 {
 for(int j3=0;j3<number1;j3++)
 {
