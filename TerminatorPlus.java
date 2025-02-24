@@ -433,16 +433,7 @@ menor=0;
 	       
 	          /* ESTO ERA LO QUE HAY QUE DEJAR*/
 	 }       
-	 Hola[rango1]=Combinaciones*Combinaciones;
-	        /*System.out.println ("Hay "+ Hola[rango1]+" menores ");*/   
-	            for(i=1;i<Combinaciones+1;i++)
-	            {
-	                sale1=String.valueOf(matriz[i]);
-	               
-	            for(j=1;j<Combinaciones+1;j++)
-	            {
-	                sale2=String.valueOf(matriz[j]);
-	               
+	
 	               
 
 	ceromat();
