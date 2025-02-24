@@ -422,28 +422,7 @@ chivato=true;
 	   /*ESTE CONTADOR TIENE QUE SER EN BASE M     */
 	   /*i=50;                                     */
 	   /* String base = Int.toString(i,elementos); */
-	   salida=Integer.toString(h,elementos);
-	   
-	   /* ESTO ES LO QUE HAY QUE DEJAR*/
-	   
-	   /*salida=Integer.toString(h);*/
 	  
-	     /*sale=h;*/
-	     sale=Integer.parseInt(salida);
-	     
-	      p1=Combina.Combo(opciones,sale,salida);
-	     
-	   
-
-	   
-                    if (p1==true) {
-                       q=q+1;
-                     matriz[q]=sale;
-	               
-	           }   
-	       }    
-	     
-	      /* ESTO ERA LO QUE HAY QUE DEJAR*/
 	       
 	       
 	      
