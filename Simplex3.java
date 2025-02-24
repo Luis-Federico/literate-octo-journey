@@ -225,32 +225,7 @@ boolean correcto[][]=new boolean[260][10];
        int q=0;
        int h=0;
        sale=0;
-          while(sale<Total)     
-          {
-               h=h+1;
-     
-       salida=Integer.toString(h,elementos);
-       
-    
-         sale=Integer.parseInt(salida);
          
-          p1=Combina.Combo(opciones,sale,salida);
-         
-       
-
-
-                    if (p1==true) {
-                       q=q+1;
-                     matriz[q]=sale;
-                   
-               }   
-           }
-           
-           /* Aqui se crea la matriz de cramer para cada combinación*/
-           porque=0;
-               
-            for(j=1;j<combinatoria+1;j++)
-            {
                 sale2=String.valueOf(matriz[j]);
                 s=0;
                 t=0;
