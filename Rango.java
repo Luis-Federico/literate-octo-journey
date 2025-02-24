@@ -1094,39 +1094,7 @@ return det;
 	   /*salida=Integer.toString(h);*/
 	  
 	     /*sale=h;*/
-             sale=Integer.parseInt(salida); 
-	     
-	      p1=Combina.Combo(opciones,sale,salida);
-	     
-	   
-
-
-                    if (p1==true) {
-                       q=q+1;
-                     matriz[q]=sale;
-	               
-	           }   
-	       
-	       }
-	      /* ESTO ERA LO QUE HAY QUE DEJAR*/
-	       
-	       
-	      
-            for(i=1;i<combinatoria+1;i++)
-            {
-                sale1=String.valueOf(matriz[i]);
-               
-            for(j=1;j<combinatoria+1;j++)
-            {
-                sale2=String.valueOf(matriz[j]);
-                s=0;
-                t=0;
-                /*System.out.println("Probemos con la matriz siguiente, introduzca un entero: ");
-                int r1= sc.nextInt();*/
-                for (g1=0;g1<rango1;g1++)
-                {
-                     saleA=sale1.charAt(g1);
-                     A=Character.getNumericValue(saleA);
+            
                      t=0;
                     for(g2=0;g2<rango1;g2++)
                     {
