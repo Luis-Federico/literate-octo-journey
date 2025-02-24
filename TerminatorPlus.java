@@ -430,22 +430,7 @@ menor=0;
 	       
 	       /* ESTO ES LO QUE HAY QUE DEJAR*/
 	       
-	       salida=Integer.toString(h);
-	      
-	         sale=h; 
-	         
-	          p1=Combina.Combo(opciones,sale,salida);
-	         
 	       
-
-
-	                    if (p1==true) {
-	                       q=q+1;
-	                    matriz[q]=sale;
-	                   
-	               }   
-	           
-	           }
 	          /* ESTO ERA LO QUE HAY QUE DEJAR*/
 	 }       
 	 Hola[rango1]=Combinaciones*Combinaciones;
